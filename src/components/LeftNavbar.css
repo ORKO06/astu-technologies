@@ -1,0 +1,29 @@
+.Nav {
+  width: 350px;
+  background-color: #00204e;
+  min-height: 100vh;
+  padding: 40px 24px;
+}
+
+.NavLogo {
+}
+
+.NavItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.NavItems {
+  margin-left: 20px;
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.NavItemIcon {
+  height: 24px;
+  width: 24px;
+}

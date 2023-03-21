@@ -1,0 +1,17 @@
+.HomeScreen {
+  min-width: 1090px;
+  width: 100%;
+  padding: 24px 32px;
+  min-height: 100vh;
+}
+
+.HomeBackContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.BackIcon {
+  height: 24px;
+  width: 24px;
+}

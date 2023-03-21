@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Body from "./components/Body";
+import LeftNavbar from "./components/LeftNavbar";
 
 function App() {
   return (
     <div className="App">
-      Astu Technologies
+      <LeftNavbar />
+      <Body />
     </div>
   );
 }
