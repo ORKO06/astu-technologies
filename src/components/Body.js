@@ -9,7 +9,7 @@ const Body = () => {
   const [invited, setInvited] = useState([
     { id: "x", email: "akshay@cashwise.in", role: "owner", accepted: true },
     { id: "a", email: "shivanju@cashwise.in", role: "admin", accepted: true },
-    { id: "b", email: "siddhant@cashwise.in", role: "admin", accepted: true },
+    { id: "b", email: "siddhant@cashwise.in", role: "admin", accepted: false },
   ]);
 
   const onSendingInvite = (value) => {
